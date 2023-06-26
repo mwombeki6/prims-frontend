@@ -1,0 +1,14 @@
+import "../../globals.css";
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  // offset navbar height
+  return (
+    <div>
+      <section>{children}</section>
+    </div>
+  );
+}
